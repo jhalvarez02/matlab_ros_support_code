@@ -4,7 +4,7 @@
 clc
 clear
 rosshutdown;
-masterhostIP = "192.168.122.128";
+masterhostIP = "192.168.118.128";
 rosinit(masterhostIP)
 
 %% 02 Go Home
