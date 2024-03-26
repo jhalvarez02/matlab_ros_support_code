@@ -27,5 +27,5 @@ function [grip_result_msg,grip_result_state] = doGrip(type)
     grip_goal = packGripGoal(gripPos,grip_msg);
 
     % Send action goal
-    [grip_result_msg,grip_result_state] = sendGoal(grip_action_client,grip_goal);
+    sendGoal(grip_action_client,grip_goal);
 end
