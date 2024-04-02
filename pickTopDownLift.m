@@ -1,4 +1,4 @@
-pickTopDownCan
+%pickTopDownCan
 
 % Deliverables:
 % o pickTopDownLift.m
@@ -30,7 +30,7 @@ pickTopDownCan
 %pause(30) pause 30 seconds and wait for the robot to register its current
 %postion relative to the world
 
-pause(30)
+pause(5)
 
 %Can Position & Orientation
 rCan3X = -0.04;
